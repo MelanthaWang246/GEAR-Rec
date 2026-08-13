@@ -1,0 +1,58 @@
+{
+  "seed": 2020,
+  "train_ratio": 0.8,
+  "interaction_source": "enrollment",
+  "require_kg": true,
+  "candidate_user_interactions": {
+    "min": 60,
+    "max": 300
+  },
+  "candidate_users": 17344,
+  "requested_sample_users": 12000,
+  "sampled_users_before_core": 12000,
+  "min_user_core": 60,
+  "min_item_core": 10,
+  "raw_users": 3210329,
+  "raw_items": 3744,
+  "raw_interactions": 11520005,
+  "sampled_items_before_core": 3093,
+  "sampled_interactions_before_core": 873884,
+  "users": 11943,
+  "items": 2297,
+  "interactions": 867796,
+  "train_interactions": 698260,
+  "test_interactions": 169536,
+  "density": 0.03163320650466001,
+  "sparsity": 0.9683667934953399,
+  "user_degree": {
+    "min": 60,
+    "max": 298,
+    "mean": 72.66147534120405
+  },
+  "item_degree": {
+    "min": 10,
+    "max": 4043,
+    "mean": 377.79538528515457
+  },
+  "core_history": [
+    {
+      "iteration": 1,
+      "deleted_item_interactions": 3036,
+      "deleted_user_interactions": 2808,
+      "remaining_interactions": 868040
+    },
+    {
+      "iteration": 2,
+      "deleted_item_interactions": 126,
+      "deleted_user_interactions": 118,
+      "remaining_interactions": 867796
+    },
+    {
+      "iteration": 3,
+      "deleted_item_interactions": 0,
+      "deleted_user_interactions": 0,
+      "remaining_interactions": 867796
+    }
+  ],
+  "min_videos_per_course": null
+}
