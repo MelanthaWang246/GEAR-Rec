@@ -8,4 +8,4 @@ GEAR-Rec官方仓库，内含原数据集和训练/测试数据。同时提供�
 ## llm_code
 构建用户和物品的语义描述
 ## rec_code
-训练和测试代码。启动时需要cd rec_code再train_mooc.sh或者train_ml-1m.sh
+训练和测试代码。启动时需要cd main_code再train_mooc.sh或者train_ml-1m.sh
